@@ -53,6 +53,10 @@ body {
   color: var(--text-primary);
 }
 
+section {
+  margin: 0 auto 88px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -66,6 +70,17 @@ body {
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 .button {
