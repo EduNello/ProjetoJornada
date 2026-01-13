@@ -34,14 +34,14 @@ footer {
   line-height: 1.6;
   max-width: 300px;
 }
-.rodape-info {
+.rodape-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.rodape-info ul {
+.rodape-link ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -51,8 +51,43 @@ footer {
   align-items: center;
 }
 
-.rodape-info ul li a img {
+.rodape-link ul li a img {
   width: 32px;
   height: auto;
   display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .rodape-img {
+    height: 620px;
+    width: 100%;
+    background: url(../img/rodape-img.png) no-repeat center;
+    background-size: cover;
+  }
+  .rodape-container {
+    font-size: 20px;
+    line-height: 32px;
+    padding: 32px 60px;
+  }
+
+  .rodape-text {
+    align-items: flex-start;
+  }
+  .rodape-text p {
+    max-width: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .rodape-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
 }
