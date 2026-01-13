@@ -1,6 +1,6 @@
 .testimonials {
   width: 90%;
-  margin: 0 auto 88px;
+  margin: 0 auto 88x;
 }
 
 .testimonial-container {
@@ -9,10 +9,15 @@
   gap: 32px;
 }
 
+.testimonial-container article header {
+  padding: 0;
+}
+
 .testimonial-container article header p {
   font-size: 16px;
   line-height: 28px;
   margin: 0 0 8px;
+  height: auto;
 }
 .testimonial-container article footer {
   display: flex;
@@ -39,7 +44,7 @@
   width: 86px;
   height: 86px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .testimonial-container {
     display: flex;
     flex-direction: row;
